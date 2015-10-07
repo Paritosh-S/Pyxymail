@@ -1,0 +1,83 @@
+/*Slider CSS*/
+#slider_jssor_container {
+	position: relative; margin: 0 auto;
+    top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;	
+}
+/* jssor slider bullet navigator skin 21 css */
+/*
+.jssorb21 div           (normal)
+.jssorb21 div:hover     (normal mouseover)
+.jssorb21 .av           (active)
+.jssorb21 .av:hover     (active mouseover)
+.jssorb21 .dn           (mousedown)
+*/
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
+{
+    background: url(img/b21.png) no-repeat;
+    overflow:hidden;
+    cursor: pointer;
+}
+.jssorb21 div { background-position: -5px -5px; }
+.jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+.jssorb21 .av { background-position: -65px -5px; }
+.jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+
+/* jssor slider arrow navigator skin 21 css */
+/*
+.jssora21l              (normal)
+.jssora21r              (normal)
+.jssora21l:hover        (normal mouseover)
+.jssora21r:hover        (normal mouseover)
+.jssora21ldn            (mousedown)
+.jssora21rdn            (mousedown)
+*/
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+{
+  position: absolute;
+  cursor: pointer;
+  display: block;
+    background: url(img/a21.png) center center no-repeat;
+    overflow: hidden;
+}
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21ldn { background-position: -243px -33px; }
+.jssora21rdn { background-position: -303px -33px; }
+            
+
+
+#services i {
+	color: lightgreen;
+}
+.services-item:hover i {
+-webkit-transform:scale(1.4); 
+-moz-transform:scale(1.4); 
+-o-transform:scale(1.4); 
+
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+}
+.bigquote-container {
+	background-color: rgba(119,187,228, 0.58) !important;
+}
+.bigquote-container:hover i {
+	opacity: 1;
+    color: hotpink;		
+	/* Firefox */
+	-moz-transform:rotate(30deg) translate(1px);
+	/* WebKit */
+	-webkit-transform: rotate(30deg) translate(1px);
+	/* Opera */
+	-o-transform: rotate(30deg) translate(1px);
+	/* Standard */
+	transform: rotate(30deg) translate(1px);
+	z-index: 1000;	
+
+	-webkit-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;	
+}
+
