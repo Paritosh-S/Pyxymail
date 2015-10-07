@@ -6,7 +6,7 @@
 <html>
 	<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 		
-		<title>Mad mimi</title>
+		<title>This is Addon.PHP</title>
 
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,500,500italic,700,900">
 
@@ -258,7 +258,7 @@ header
 	margin-top: 10px;
 }
 .question {
-background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9I…I5Ni0xLjE3LjkzNiAwIDEuMzY4LjY0OCAxLjM2OCAxLjk2MnoiLz48L2c+PC9nPjwvc3ZnPgo=);
+background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9Iâ€¦I5Ni0xLjE3LjkzNiAwIDEuMzY4LjY0OCAxLjM2OCAxLjk2MnoiLz48L2c+PC9nPjwvc3ZnPgo=);
 background-position: 0 5px;
 }
 .QA
@@ -1410,7 +1410,7 @@ header
 	margin-top: 10px;
 }
 .question {
-background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9I…I5Ni0xLjE3LjkzNiAwIDEuMzY4LjY0OCAxLjM2OCAxLjk2MnoiLz48L2c+PC9nPjwvc3ZnPgo=);
+background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9Iâ€¦I5Ni0xLjE3LjkzNiAwIDEuMzY4LjY0OCAxLjM2OCAxLjk2MnoiLz48L2c+PC9nPjwvc3ZnPgo=);
 background-position: 0 5px;
 }
 .QA
